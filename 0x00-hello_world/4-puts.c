@@ -1,8 +1,10 @@
 #include <stdio.h>
-/* Standard output with puts() library */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-{
-	char *var = "\"Programming is like building a multilingual puzzle";	
-	puts(var);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
