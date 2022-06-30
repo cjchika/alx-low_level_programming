@@ -1,8 +1,8 @@
 #include <stdio.h>
 /* Standard output with puts() library */
-main(void)
+int main(void)
 {
-char *var = "\"Programming is like building a multilingual puzzle";
-puts(var);
-return (0);
+	char *var = "\"Programming is like building a multilingual puzzle";	
+	puts(var);
+	return (0);
 }
