@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _isupper - checks if parameter is an uppercase character.
  * @c: input character.
@@ -15,6 +15,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-
-	return (c);
 }
