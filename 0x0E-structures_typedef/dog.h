@@ -1,10 +1,10 @@
 #ifndef _DOG_H
 #define _DOG_H
 /**
- * dog - check the code
- * @name
- * @age
- * @owner
+ * struct dog - dog struct
+ * @name: char
+ * @age: int
+ * @owner: char
  */
 struct dog
 {
